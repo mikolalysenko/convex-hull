@@ -1,6 +1,6 @@
 convex-hull
 ===========
-Given a list of points in any dimension, find an oriented polytope representing their convex hull.
+This module is a wrapper over various convex hull modules which exposes a simple interface for computing convex hulls of point sets in any dimension.
 
 # Example
 
