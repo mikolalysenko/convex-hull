@@ -4,11 +4,12 @@
   "description": "Any dimensional convex hull",
   "main": "ch.js",
   "dependencies": {
-    "monotone-convex-hull-2d": "^1.0.1",
-    "incremental-convex-hull": "^1.0.1"
+    "affine-hull": "^1.0.0",
+    "incremental-convex-hull": "^1.0.1",
+    "monotone-convex-hull-2d": "^1.0.1"
   },
   "devDependencies": {
-    "tape": "^2.13.1"
+    "tape": "^3.0.3"
   },
   "scripts": {
     "test": "tape test/*.js"

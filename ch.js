@@ -21,5 +21,5 @@ function convexHull(points) {
   } else if(d === 2) {
     return convexHull2d(points)
   }
-  return convexHullnd(points)
+  return convexHullnd(points, d)
 }
