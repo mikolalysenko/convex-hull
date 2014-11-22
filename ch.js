@@ -1,8 +1,8 @@
 "use strict"
 
-var convexHull1d = require("./lib/ch1d")
-var convexHull2d = require("./lib/ch2d")
-var convexHullnd = require("./lib/chnd")
+var convexHull1d = require('./lib/ch1d')
+var convexHull2d = require('./lib/ch2d')
+var convexHullnd = require('./lib/chnd')
 
 module.exports = convexHull
 
@@ -11,7 +11,7 @@ function convexHull(points) {
   if(n === 0) {
     return []
   } else if(n === 1) {
-    return [0]
+    return [[0]]
   }
   var d = points[0].length
   if(d === 0) {
